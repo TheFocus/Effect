@@ -1,0 +1,47 @@
+
+.nav_ul{
+	list-style-type: none;
+	margin-bottom: 20px;
+    
+}
+
+.nav_li{
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.brand{
+	height: 100px;
+	padding-left: 50px;
+}
+.nav1{
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.item .carouselImg{
+	position: relative;
+	height: 400px;
+	}
+.carousel1{
+	
+	
+	height: 400px;
+}
+
+
+.sheduleBorder{
+	border: 2px solid grey;
+	width: 370px;
+	padding: 5px;
+	border-radius: 20px;
+	margin-top: 25px;
+}
+
+.btn-lg{
+	margin-top: 25px;
+}
+.news{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script
+			  src="https://code.jquery.com/jquery-2.2.4.min.js"
+			  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+			  crossorigin="anonymous"></script>
+			  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+			  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+			  <link rel="stylesheet" href="css/style.css" type="text/css" />
+    </head>
+    <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+            <ul class="nav_ul">
+            <li><span class="glyphicon glyphicon-phone-alt nav_li" aria-hidden="true"> xxxx</span></li>
+            <li><span class="glyphicon glyphicon-phone nav_li" aria-hidden="true"> xxxxxxx</span></li>
+            </ul>
+            </div>
+            <div class="col-md-4">
+            <div class="sheduleBorder">Графік роботи: пн,вт,ср,чт,пт 10:00-18:00 без перерви
+            cб 10:00-14:00 без перерви нд вихідний</div>
+            </div>
+            <div class="col-md-4">
+            <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                Записатись на прийом
+                </button>
+
+        <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Закрити</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Запис на пройом</h4>
+                        </div>
+                    <div class="modal-body">
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="name">Ваше ім'я</label>
+                                <input type="text" class="form-control" placeholder="Ваше ім'я">
+                            </div>
+                            <div class="form-group">
+                                <label for="email1">Імейл адреса</label>
+                                <input type="email" class="form-control" placeholder="Ваш імейл">
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNumber">Ваш номер телефону</label>
+                                <input type="phoneNumber" class="form-control" placeholder="Ваш номер телефону">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>
+                        <button type="button" class="btn btn-primary">Відправити</button>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                   <a class="navbar-brand brand" href="index.html">
+                   <img alt="Brand" src="img/ban_Efect.gif">
+                   </a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right nav1">
+                        <li><a href="#">Головна</a></li>
+                        <li><a href="#">Наші спeціалісти</a></li>
+                        <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Послуги<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">4</a></li>
+                        </ul></li>
+                        <li><a href="#">Контакти</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div class="containerfluid">
+            <div class="row">
+                <div class="col-md-8 col-sm-10">
+                    <div id="carousel-example-generic" class="carousel slide carousel1" data-ride="carousel">
+  <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-3 col-md-offset-2">
+                                        <img class="carouselImg" src="img/medicina.jpg" alt="somePicture">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <img class="carouselImg" src="img/medbud.jpg" alt="frontViev">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <img class="carouselImg" src="img/rlawqlnd373270.jpg" alt="frontViev">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Попередній</span>
+                          </a>
+                          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Наступний</span>
+                          </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-8">
+                    <div class="news">
+                        <a href="http://www.harmony.com.ua/text/3560.html">Які продукти псують шкіру на вашому обличчі</a><br>
+                        <a href="http://www.harmony.com.ua/text/3386.html">Реформа медицини: в період військових дій наука стає практикою</a><br>
+                        <a href="http://www.harmony.com.ua/text/2700.html">Моржування, або іншими словами - зимове купання, є одним з найбільш ефективних способів загартовування організму.</a><br>
+                        <a href="http://www.harmony.com.ua/text/2920.html">Уявіть собі життя без цукру...</a><br>
+                        <a href="http://www.harmony.com.ua/text/2833.html">Не нехтуйте содою</a><br>
+                        <a href="http://www.harmony.com.ua/text/2322.html">Способи збереження зору людини</a><br>
+                        <a href="http://www.harmony.com.ua/text/2044.html">Енергія на тарілці</a><br>
+                        <a href="http://www.harmony.com.ua/text/2034.html">Як добре виспатися? Сім правил короткого, але корисного сну</a><br>
+                        <a href="http://www.harmony.com.ua/text/1899.html">Нація, або Бути хворим модно</a><br>
+                        <a href="http://www.harmony.com.ua/text/1746.html">Головна таємниця спалювання жирів або чому не допомагає спортзал</a><br>
+                        <a href=""></a><br>
+                    </div>
+                </div>
+            </div>
+            <
+
+
+        
+        
+    </body>
+</html>
