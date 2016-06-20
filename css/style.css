@@ -1,4 +1,8 @@
-
+.container-fluid .navGeneral{
+	background-color: #CCCCFF;
+	border-radius: 20px;
+	margin-top: 20px;
+}
 .nav_ul{
 	list-style-type: none;
 	margin-bottom: 20px;
@@ -16,32 +20,93 @@
 .nav1{
 	margin-top: 20px;
 	margin-right: 20px;
+	
 }
+.nav1 li{
+	border: 2px solid #CCCCFF;
+	border-radius: 20px;
+}
+.collapse .nav1 li:hover{
+	border: 2px solid white;
+	background-color: white;
+	border-radius: 20px;
+}
+.nav1 a{
+	border: 2px solid #CCCCFF;
+	border-radius: 20px;
+}
+.nav1 a:hover{
+	border: 2px solid white;
+	border-radius: 20px;
+	/*transition: 1.5s;*/
+}
+.menu1{
+	background-color: #CCCCFF;
+}
+/*.menu1 li:hover{
+	border: 2px solid white;
+	background-color: white;
+	border-radius: 20px;
+	transition: 0.25s;
+}*/
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    
+     background-color: transparent;
+     border: none;
+ }
 .item .carouselImg{
 	position: relative;
 	height: 400px;
 	}
 .carousel1{
-	
+	margin-top: 70px;
 	
 	height: 400px;
 }
 
 
 .sheduleBorder{
-	border: 2px solid grey;
-	width: 370px;
-	padding: 5px;
+	border: 4px double #CC0000;
 	border-radius: 20px;
 	margin-top: 25px;
+	padding: 5px;
 }
 
 .btn-lg{
 	margin-top: 25px;
 }
 .news{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
+	border: 4px double #CC0000;
+	border-radius: 20px 0px;
+	
+	/*display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;*/
 }
+.new1{
+	/*flex-basis: 100%;*/
+	margin: 10px;
+	list-style-type: none;
+}
+.footer1{
+	margin-top: 20px;
+	border-top: 6px double #3300CC;
+	/*background-color: #FFCCCC;*/
+	background-image: url(../img/302_182.png);
+	padding: 50px
+}
+body{
+	background-image: url(../img/329_body_bg0.jpg);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+nav{
+	font-weight: 800;
+}
+.animated {
+  -webkit-animation-duration: 6s;
+  animation-duration: 2s;
+}
+
+
 
