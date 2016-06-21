@@ -57,11 +57,12 @@
 .item .carouselImg{
 	position: relative;
 	height: 400px;
+	width: 1000px;
 	}
 .carousel1{
 	margin-top: 70px;
 	
-	height: 400px;
+	/*height: 400px;*/
 }
 
 
@@ -83,11 +84,7 @@
 	flex-wrap: wrap;
 	justify-content: space-around;*/
 }
-.new1{
-	/*flex-basis: 100%;*/
-	margin: 10px;
-	list-style-type: none;
-}
+
 .footer1{
 	margin-top: 20px;
 	border-top: 6px double #3300CC;
@@ -109,6 +106,8 @@ nav{
 }
 .news li{
 	border: 1px solid transparent;
+	margin: 10px;
+	list-style-type: none;
 }
 .news li:hover{
 	border: 1px solid #FF9966;
