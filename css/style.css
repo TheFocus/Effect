@@ -107,6 +107,13 @@ nav{
   -webkit-animation-duration: 6s;
   animation-duration: 2s;
 }
+.news li{
+	border: 1px solid transparent;
+}
+.news li:hover{
+	border: 1px solid #FF9966;
+	background-color: #FF9966;
+}
 
 
 
