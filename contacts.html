@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script
+			  src="https://code.jquery.com/jquery-2.2.4.min.js"
+			  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+			  crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,400italic,600,600italic,700,700italic,800italic,300italic,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+        <style type="text/css">
+      html, body { height: 100%; margin: 0; padding: 0; }
+      #map { height: 100%; }
+    </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                	<ul class="nav_ul">
+                		<li><span class="glyphicon glyphicon-phone-alt nav_li" aria-hidden="true"> xxxx</span></li>
+                		<li><span class="glyphicon glyphicon-phone nav_li" aria-hidden="true"> 066xxxxxxx</span></li>
+                	</ul>
+                </div>
+                <div class="col-md-3 col-md-offset-4 col-sm-3 col-sm-offset-4 col-xs-10 col-xs-offset-1">
+                <div class="sheduleBorder">Графік роботи: пн,вт,ср,чт,пт 10:00-18:00 без перерви<br>
+                cб 10:00-14:00 без перерви<br>
+                нд вихідний</div>
+                </div>
+            </div>
+        	
+            <nav class="navbar navbar-default navGeneral" role="navigation">
+            	<div class="container-fluid">
+                    <div class="navbar-header">
+                    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+    		              <span class="sr-only">Toggle navigation</span>
+    		              <span class="icon-bar"></span>
+    		              <span class="icon-bar"></span>
+    		              <span class="icon-bar"></span>
+    		            </button>
+                       <a class="navbar-brand brand" href="index.html">
+                       <img alt="Brand" src="img/ban_Efect.gif">
+                       </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="nav navbar-nav navbar-right nav1">
+                            <li><a href="index.html">Головна</a></li>
+                            <li><a href="#">Наші спeціалісти</a></li>
+                            <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Послуги<span class="caret"></span></a>
+                            <ul class="dropdown-menu menu1" role="menu">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            </ul></li>
+                            <li><a href="contacts.html">Контакти</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div> <!--container fluid: navbar + sheule-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div id="map" class="col-md-4 col-md-offset-2">
+                    <!--<iframe class="googleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2621.5153937170994!2d24.69754821567665!3d48.92462447929401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730c110d67766f7%3A0x7bdd49e32e653b27!2z0JXQpNCV0JrQoiwg0JzQldCU0JjQp9Cd0JjQmSDQptCV0J3QotCg!5e0!3m2!1suk!2sua!4v1467534848548" width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+                    <script type="text/javascript">
+
+                    var map;
+                    function initMap() {
+                      map = new google.maps.Map(document.getElementById('map'), {
+                        center: {lat: -48.925248, lng: 24.699737},
+                        zoom: 8
+                      });
+                    }
+
+                        </script>
+                    <script async defer
+                          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTvcTTSMryrqkCHtEDROajnO_7phzBACg&callback=initMap">
+                    </script>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
