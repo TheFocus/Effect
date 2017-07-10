@@ -119,6 +119,11 @@ nav{
 }*/
 html, body { height: 100%; margin: 0; padding: 0; }
       #map { height: 400px; width: 600px;}
+.content_font{
+	font-family: 'Arial Cyr';
+	font-size: 1.5em;
+	color: #990000;	
+}
 
 
 

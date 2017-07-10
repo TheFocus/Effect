@@ -10,12 +10,12 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,400italic,600,600italic,700,700italic,800italic,300italic,300' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/animsition.css" />
+		<link rel="stylesheet" href="css/animsition.css" />
         <link rel="stylesheet" type="text/css" href="css/animate.css">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
     </head>
     <body>
-        <div class="container-fluid">
+    	<div class="container-fluid">
             <div class="row">
                 <div class="col-md-4 col-sm-4">
                 	<ul class="nav_ul">
@@ -61,30 +61,19 @@
                 </div><!-- /.container-fluid -->
             </nav>
         </div> <!--container fluid: navbar + sheule-->
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4">
-                    <p><strong></strong>
-                </div>
-                <div class="col-md-4 col-md-offset-2">
-                    <div id="map"></div>
-                    <script type="text/javascript">
-                        var map;
-                        function initMap() {
-                          map = new google.maps.Map(document.getElementById('map'), {
-                            center: {lat: 48.925248, lng: 24.699737},
-                            zoom: 15
-                          });
-                          var marker = new google.maps.Marker({
-                            position: {lat: 48.924621, lng: 24.699734},
-                            map: map,
-                            title: 'Ефект, Медичний Центр'
-                          });
-                                }
-                    </script>
-                    <script async defer
-                          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTvcTTSMryrqkCHtEDROajnO_7phzBACg&callback=initMap">
-                    </script>
+                <div class="col-md-8 col-md-offset-2">
+                    <h1>Трихологія</h1>
+                    <ul>
+                        <li>Консультація лікаря-трихолога</li>
+                        <li>Дерматоскопія шкіри голови</li>
+                        <li>Видаленя доброякісних новоутворень</li>
+                        <li>Дерматоскопія шкіри голови</li>
+                        <li>Дерматоскопія волосяного стержня</li>
+                        <li>Комплекс процедур по відновленнюросту волосся</li>
+                        <li></li>
+                    </ul>
                 </div>
             </div>
         </div>
