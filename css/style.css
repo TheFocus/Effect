@@ -41,8 +41,9 @@
 	/*transition: 1.5s;*/
 }
 .menu1{
-	background-color: #CCCCFF;
+	background-color: #CCCCFF !important;
 }
+
 /*.menu1 li:hover{
 	border: 2px solid white;
 	background-color: white;
